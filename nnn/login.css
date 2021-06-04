@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    /* border: 1px solid burlywood; */
+  
+}
+.x{
+    display: grid;
+    margin: 9% 24%;
+    grid-template-columns: 70% 30%;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px black;
+    box-sizing: border-box;
+    position: relative;
+    height: 60%;
+    width: 50%;
+}
+
+.xxx{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("imgs/uplode/zoo-6203486_1920.jpg");
+}
+#x{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    background-color: blanchedalmond;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#xx{
+    margin: 10% 25% ;
+    padding: 1%;
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+  
+}
+
+#xxx{
+ margin-top: 95%;
+ background-color: brown;
+ padding: 1% 10%;
+}
+#xxx:hover{
+    background-color: blanchedalmond;
+   }
+.xxxxx input{
+    border: none;
+    background-color: brown;
+    padding: 1% 10%;
+    border-radius: 10px;
+}
+.xxxxx input:hover{
+    background-color: blanchedalmond;
+}
+a{
+    color: black;
+}
+@media screen and (max-width: 860px) {
+.x{
+    width: 100%;
+    margin: 40% 0px;
+    height: 40%;
+ 
+}
+#xxx{
+    margin-top: 160px;
+   }
+   #xx{
+    margin: 10% 10% ;
+    padding: 2%;
+}
+#x{
+    top:61%;
+    left:7%;
+}
+
+}

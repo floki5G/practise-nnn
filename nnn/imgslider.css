@@ -1,0 +1,86 @@
+    /* six block start  */
+    .z{
+    
+      margin-left: 25%;
+      margin-top: 1.75%;
+    }
+    .zz{
+    padding-top: 25px;
+    display: flex;
+    overflow: hidden;
+    width: 750px;
+    height: 400px;
+    border-radius: 3px;
+    }
+    .zz input{
+      display: none;
+    
+    }
+    .navm{
+      padding: 12px 8px;
+    margin-left: 25%;
+    margin-top: -4px;
+    }
+    
+    .nav_m{
+    border: 3px solid black;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 5px;
+    border-radius: 20px;
+    margin-left: 8px;
+    }
+    .nav_m:hover{
+      background-color: red;
+    }
+    #radio2:checked ~ #six_one{
+      margin-left: -600px;
+      transition:  2s;
+    }
+    
+    #radio3:checked ~ #six_one{
+      margin-left: -1100px;
+      transition:  2s;
+    }
+    #radio4:checked ~ #six_one{
+      margin-left: -1700px;
+      transition:  2s;
+    }
+    #radio5:checked ~ #six_one{
+      margin-left: -2300px;
+      transition:  2s;
+    }
+    #radio6:checked ~ #six_one{
+      margin-left: -2900px;
+      transition:  2s;
+    }
+  
+    @media screen and (max-width: 860px){
+      .z{
+        width: 100%;
+      }
+      .zz{
+        width: 50%;
+        height: 100px;
+      }
+      .navm{
+        margin-left: 10px;
+      }
+      #radio2:checked ~ #six_one{
+        margin-left: -100px;
+      }
+      #radio3:checked ~ #six_one{
+        margin-left: -200px;
+      }
+      #radio4:checked ~ #six_one{
+        margin-left: -300px;
+      }
+      #radio5:checked ~ #six_one{
+        margin-left: -400px;
+      }
+      #radio6:checked ~ #six_one{
+        margin-left: -600px;
+      }
+    }
+    /* six block ends  */

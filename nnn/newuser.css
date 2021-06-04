@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+.x{
+text-align: center;
+box-shadow: 0px 0px 9px black;
+box-sizing: border-box;
+margin: 15% 30%;
+}
+.xx{
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+    margin: 2% 30%;
+padding: 0.5% 1%;
+
+}
+
+input{
+    border: none;
+border-bottom:1px solid black ;
+}
+#xxx input{
+    background-color: brown;
+
+   padding: 0.3% 8%;
+   border-radius: 8px;
+}
+#xxx input:hover{
+    background-color: burlywood;
+}
+@media screen and (max-width: 860px){
+    .x{
+        width: 100%;
+        margin: 35% 0%;
+    }
+    .xx{
+    
+        margin: 2% 18%;
+    padding: 1% 3%;
+    
+    }
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 3px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.y{
+    text-align: right;
+
+    box-sizing: border-box;
+    height: 40px;
+    background-color: blanchedalmond;
+}
+.yy{
+    display: inline-block;
+      background-color: burlywood;
+      border-radius: 9px;
+      padding: 1px 10px ;
+      margin: 9px 20px;
+}
+.yy:hover{
+    background-color: red;
+}
+@media screen and (max-width: 860px) {
+    .y{
+    
+        height: 30px;
+    }
+    .yy{
+        padding: 0px 10px ;
+
+          margin: 6px 10px;
+    }
+}
